@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

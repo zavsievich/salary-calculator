@@ -1,0 +1,25 @@
+{
+  "name": "salary-calculator",
+  "version": "1.0.0",
+  "description": "Калькулятор для расчёта заработной платы с учётом налоговых сборов",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zavsievich/salary-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zavsievich/salary-calculator/issues"
+  },
+  "homepage": "https://github.com/zavsievich/salary-calculator#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.1.3"
+  }
+}
