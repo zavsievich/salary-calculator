@@ -1,0 +1,22 @@
+.calc {
+
+}
+
+.calc__label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.calc__field {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 0.75rem;
+    border: 0.125rem solid var(--c-brand);
+    width: 100%;
+}
+
+.calc__result {
+
+}

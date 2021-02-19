@@ -1,4 +1,3 @@
 export default function switcher() {
-C    console.log('switcher');
-    
+    console.log('switcher');
 }

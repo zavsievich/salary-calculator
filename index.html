@@ -18,7 +18,19 @@
         </div>
     </header>
     <main class="main">
-        <div class="main__container container"></div>
+        <article class="calc js-calc">
+            <div class="calc__container container">
+                <form class="calc__form">
+                    <label class="calc__label" for="salary-input">
+                        Введите желаемую зарплату
+                    </label>
+                    <input class="calc__field" id="salary-input" type="text" data-field>
+                </form>
+                <div class="calc__result" data-result hidden>
+                    <div class="calc__sum"></div>
+                </div>
+            </div>
+        </article>
     </main>
     <script src="scripts/app.ts"></script>
 </body>
