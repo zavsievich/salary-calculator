@@ -2,6 +2,11 @@
 
 }
 
+.calc__form {
+    padding-bottom: 1.25rem;
+    border-bottom: 0.125rem solid var(--c-brand);
+}
+
 .calc__label {
     display: block;
     font-size: 1.25rem;
@@ -18,5 +23,6 @@
 }
 
 .calc__result {
-
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
 }
